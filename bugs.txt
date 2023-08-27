@@ -1,0 +1,1 @@
+- Al conectarse con el servidor este envía toda la cadena pero el cliente solo recibe una parte.
