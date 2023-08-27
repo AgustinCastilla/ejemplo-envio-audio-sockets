@@ -44,3 +44,7 @@ En caso de tener problemas con los pipes puede crear nuevos con el comando:
 ```
 mkfifo [nombre]
 ```
+
+# Libreria
+
+El proyecto utiliza la libreria proporcionada por la catedra de Informática 1 de la UTN FRBA (Alejandro Furfaro).
