@@ -2,7 +2,7 @@
 
 Cliente y Servidor que permite al cliente navegar por los directorios de una carpeta específica del servidor y reproducir archivos de audio '.raw' ubicados en el servidor.
 
-# Pasos previos
+# Preparado
 
 ## Instalacion
 
