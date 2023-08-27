@@ -45,6 +45,19 @@ En caso de tener problemas con los pipes puede crear nuevos con el comando:
 mkfifo [nombre]
 ```
 
+# Creación de archivo RAW
+
+Si desea crear un archivo RAW teniendo el audio en otro formato (mp3 por ejemplo) puede utiliar la siguiente herramienta:
+```
+sudo apt install ffmpeg
+```
+y luego:
+```
+ffmpeg -y -i [input] -acodec pcm_s16le -f s16le -ac 2 -ar 48000 [output]
+```
+
+Asegurese de que el output file es extensión '.raw'.
+
 # Libreria
 
 El proyecto utiliza la libreria proporcionada por la catedra de Informática 1 de la UTN FRBA (Alejandro Furfaro).
